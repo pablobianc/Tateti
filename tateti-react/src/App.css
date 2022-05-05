@@ -1,0 +1,111 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #090909,
+    #19191a,
+    #272528,
+    #353237,
+    #454046
+  );
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 112px);
+}
+
+.cell {
+  margin-left: 390px;
+  width: 112px;
+  height: 112px;
+  border: 3px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  background-image: linear-gradient(
+    to right top,
+    #2d6ac9,
+    #0093eb,
+    #00b7e5,
+    #00d4b9,
+    #12eb79
+  );
+}
+
+.buttonContainer {
+  margin-left: 430px;
+  margin-top: 35px;
+  color: white;
+  border-radius: 60px;
+
+  padding: 10px 55px;
+  font-size: 35px;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right top,
+    #d3461f,
+    #e36618,
+    #ef8511,
+    #f9a410,
+    #ffc31b
+  );
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.buttonContainer:hover {
+  border: 4px solid rgb(253, 252, 252);
+  padding: 5px;
+}
+
+.turn {
+  font-weight: bold;
+  font-size: 27px;
+  color: wheat;
+  padding: 0px 50px;
+  background-image: linear-gradient(
+    to right top,
+    #2d6ac9,
+    #0093eb,
+    #00b7e5,
+    #00d4b9,
+    #12eb79
+  );
+}
+
+.team {
+  font-weight: bold;
+  font-size: 27px;
+  color: wheat;
+  padding: 0px 50px;
+  background-image: linear-gradient(
+    to right top,
+    #2d6ac9,
+    #0093eb,
+    #00b7e5,
+    #00d4b9,
+    #12eb79
+  );
+}
+
+.item {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 27px;
+  color: wheat;
+  padding: 0px 60px;
+
+  background-image: linear-gradient(
+    to right top,
+    #d3461f,
+    #e36618,
+    #ef8511,
+    #f9a410,
+    #ffc31b
+  );
+}
